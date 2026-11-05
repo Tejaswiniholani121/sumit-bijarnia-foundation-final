@@ -819,3 +819,337 @@
   white-space: nowrap;
   font-size: 1.05rem;
 }
+/* FINAL FOUNDER PHOTO ALIGNMENT */
+
+.v2-founder-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 22px !important;
+  align-items: start !important;
+}
+
+.v2-founder-grid figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.v2-founder-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5 !important;
+  border-radius: 24px;
+  overflow: hidden;
+  background: #e9ebef;
+}
+
+.v2-founder-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+  object-position: center top !important;
+  transform: scale(1.035);
+  transition: transform .5s ease;
+}
+
+.v2-founder-grid figure:hover .v2-founder-photo img {
+  transform: scale(1.065);
+}
+
+@media (max-width: 850px) {
+  .v2-founder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .v2-founder-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+.form-success,
+.form-error {
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: .9rem;
+  line-height: 1.55;
+}
+
+.form-success {
+  background: #eef8f1;
+  color: #245c38;
+}
+
+.form-error {
+  background: #fff1f1;
+  color: #9b2c2c;
+}
+
+.v2-contact-form button:disabled {
+  opacity: .65;
+  cursor: not-allowed;
+}
+
+.form-success,
+.form-error {
+  margin-top: 16px;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.form-success {
+  background: #eef8f1;
+  color: #245c38;
+}
+
+.form-error {
+  background: #fff1f1;
+  color: #9b2c2c;
+}
+
+.v2-contact-form button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+/* Align founder head positions */
+
+/* Sumit */
+.v2-founder-grid figure:nth-child(1) .v2-founder-photo img {
+  object-position: center 4%;
+  transform: scale(1.08);
+  transform-origin: center top;
+}
+
+/* Rahul */
+.v2-founder-grid figure:nth-child(2) .v2-founder-photo img {
+  object-position: center 3%;
+  transform: scale(1.12);
+
+  transform-origin: center top;
+}
+
+/* Dimple */
+.v2-founder-grid figure:nth-child(3) .v2-founder-photo img {
+  object-position: center top;
+  transform: scale(1.02);
+  transform-origin: center top;
+}
+
+/* Deeksha */
+.v2-founder-grid figure:nth-child(4) .v2-founder-photo img {
+  object-position: center top;
+  transform: scale(1.02);
+  transform-origin: center top;
+  margin : top
+}
+/* Final founder head alignment */
+
+/* Dimple - move image upward */
+.v2-founder-grid figure:nth-child(3) .v2-founder-photo img {
+  transform: translateY(-42px) scale(1.07) !important;
+  transform-origin: center top !important;
+}
+
+/* Deeksha - move image a little more upward */
+.v2-founder-grid figure:nth-child(4) .v2-founder-photo img {
+  transform: translateY(-58px) scale(1.07) !important;
+  transform-origin: center top !important;
+}
+
+/* DONATION PAGE */
+
+.v2-donate-hero {
+  min-height: calc(100vh - 110px);
+  display: flex;
+  align-items: center;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(92, 137, 211, 0.18), transparent 32%),
+    linear-gradient(135deg, #081b3d 0%, #173b70 100%);
+  color: #fff;
+}
+
+.v2-donate-hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.v2-donate-copy h1 {
+  margin: 18px 0 26px;
+  font-size: clamp(4rem, 7vw, 7rem);
+  line-height: .92;
+  letter-spacing: -.06em;
+  color: #fff;
+}
+
+.v2-donate-copy h1 em {
+  color: #a9c4f3;
+  font-style: normal;
+}
+
+.v2-donate-copy > p {
+  max-width: 680px;
+  color: rgba(255,255,255,.78);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.v2-donate-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.v2-donate-tags span {
+  padding: 9px 15px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.22);
+  color: rgba(255,255,255,.88);
+  font-size: .78rem;
+}
+
+.v2-donate-card {
+  padding: 48px;
+  border-radius: 30px;
+  background: rgba(255,255,255,.08);
+  border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(14px);
+}
+
+.v2-donate-card h2 {
+  margin: 20px 0;
+  color: #fff;
+  font-size: clamp(2rem, 3vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+
+.v2-donate-card p {
+  margin-bottom: 28px;
+  color: rgba(255,255,255,.75);
+  line-height: 1.7;
+}
+
+.v2-donate-tax-link {
+  display: inline-block;
+  margin-top: 22px;
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,.35);
+  padding-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+  .v2-donate-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .v2-donate-hero {
+    padding: 140px 0 70px;
+  }
+
+  .v2-donate-card {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 520px) {
+  .v2-donate-copy h1 {
+    font-size: 3.5rem;
+  }
+  
+
+  .v2-donate-card {
+    padding: 26px 22px;
+    border-radius: 24px;
+  }
+}
+/* =========================================
+   FINAL CLEAN FOUNDER ALIGNMENT
+   ========================================= */
+
+.v2-founder-grid {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 26px !important;
+  align-items: start !important;
+}
+
+.v2-founder-grid figure {
+  margin: 0 !important;
+  min-width: 0;
+}
+
+.v2-founder-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5 !important;
+  position: relative;
+  overflow: hidden;
+  border-radius: 26px;
+  background: #e9ebef;
+}
+
+.v2-founder-photo img {
+  position: absolute;
+  width: 100%;
+  height: 112%;
+  left: 0;
+  object-fit: cover !important;
+  max-width: none;
+  transition: transform .45s ease;
+}
+
+/* Sumit - slightly upward */
+.v2-founder-grid figure:nth-child(1) .v2-founder-photo img {
+  top: -4%;
+  object-position: center top;
+}
+
+/* Rahul - slightly downward */
+.v2-founder-grid figure:nth-child(2) .v2-founder-photo img {
+  top: 1%;
+  object-position: center top;
+}
+
+/* Dimple */
+.v2-founder-grid figure:nth-child(3) .v2-founder-photo img {
+  top: -2%;
+  object-position: center top;
+}
+
+/* Deeksha */
+.v2-founder-grid figure:nth-child(4) .v2-founder-photo img {
+  top: -2%;
+  object-position: center top;
+}
+
+/* Small hover only */
+.v2-founder-grid figure:hover .v2-founder-photo img {
+  transform: scale(1.025);
+}
+
+
+/* Tablet */
+@media (max-width: 850px) {
+  .v2-founder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 520px) {
+  .v2-founder-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .v2-founder-photo {
+    aspect-ratio: 4 / 4.8 !important;
+  }
+}

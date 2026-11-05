@@ -22,7 +22,7 @@ export const focusAreas = [
     body: 'Skin health can be overlooked until discomfort, stigma or access barriers make everyday life harder. We aim to build initiatives that make reliable awareness and appropriate care easier to reach—particularly where access is limited.',
     image: skinHealthImage,
     alt: 'A woman applying skincare at home, representing skin health awareness and everyday care.',
-    status: 'Currently in development'
+    
   },
   {
     number: '02',
@@ -31,7 +31,7 @@ export const focusAreas = [
     body: 'Our healthcare work will focus on preventive health awareness, community-based health initiatives and need-based interventions, developed with appropriate professionals and trusted partners.',
     image: healthcareImage,
     alt: 'A doctor speaking with a woman, representing accessible community healthcare.',
-    status: 'Currently in development'
+   
   },
   {
     number: '03',
@@ -40,7 +40,7 @@ export const focusAreas = [
     body: 'Our education work will focus on learning resources, awareness-led programmes and initiatives that help people build knowledge, skills and access to opportunities.',
     image: educationImage,
     alt: 'A teacher supporting a school student, representing learning and education.',
-    status: 'Currently in development'
+   
   },
   {
     number: '04',
@@ -49,7 +49,7 @@ export const focusAreas = [
     body: 'We aim to support rural communities through awareness, education, access and practical opportunities—responding to local needs with dignity and a long-term perspective.',
     image: ruralImage,
     alt: 'A conversation with a farmer in a rural field, representing rural development.',
-    status: 'Currently in development'
+    
   },
   {
     number: '05',
@@ -58,7 +58,7 @@ export const focusAreas = [
     body: 'We remain open to community-led initiatives where thoughtful support can improve quality of life, dignity and everyday well-being.',
     image: communityImage,
     alt: 'A family and community conversation, representing community well-being.',
-    status: 'Currently in development'
+    
   }
 ];
 

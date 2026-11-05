@@ -6,8 +6,8 @@ export const siteConfig = {
   phoneHref: '+919460993609',
   whatsappUrl: 'https://wa.me/919460993609',
   address: 'Ward No. 10, VPO Phephana, Tehsil Nohar, District Hanumangarh, Rajasthan – 335523, India',
-  donationUrl: 'https://razorpay.me/@sumitbijarniafoundation',
-  donationFormEndpoint: 'https://formsubmit.co/ajax/hello@sumitbijarniafoundation.org',
+  donationUrl: 'https://rzp.io/rzp/sumitbijarniafoundation',
+ 
   socials: {
     instagram: 'https://www.instagram.com/sumitbijarniafoundation?utm_source=qr',
     facebook: 'https://www.facebook.com/share/1DapYB2jEN/?mibextid=wwXIfr',

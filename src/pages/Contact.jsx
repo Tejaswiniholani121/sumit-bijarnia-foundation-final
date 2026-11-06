@@ -94,7 +94,13 @@ export default function Contact() {
           <div className="v2-contact-copy" data-stagger>
             <span className="eyebrow">Contact us</span>
 
-            <h1>Let’s start with a conversation.</h1>
+            <h1>
+  Let’s start
+  <br />
+  with a
+  <br />
+  conversation.
+</h1>
 
             <p>
               For general enquiries, collaboration ideas, volunteering,
